@@ -18,7 +18,7 @@ import ListaDeTarefas from './components/ListaDeTarefas.vue';
       },
       {
         titulo: 'IPTU',
-        finalizada: true,
+        finalizada: false,
       }
     ]
   })
