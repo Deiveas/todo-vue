@@ -9,7 +9,7 @@ const props = defineProps(['cadastraTarefa', 'tarefaTemp', 'trocarFiltro', 'edit
         <input :value="props.tarefaTemp" @change="props.editaTarefaTemp" required type="text" placeholder="Digite aqui a descrição da tarefa" class="form-control">
       </div>
       <div class="col-md-2">
-        <button class="btn btn-primary">Cadastrar</button>
+        <button class="btn btn-primary mt-3 mb-3">Cadastrar</button>
       </div>
       <div class="col-md-2">
         <select @change="props.trocarFiltro" class="form-control">
